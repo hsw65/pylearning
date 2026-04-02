@@ -1,54 +1,54 @@
 {
- "cells": [
+ "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells": [   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells"   "cells": [
   {
-   "cell_type": "code",
-   "id": "initial_id",
-   "metadata": {
-    "collapsed": true
+   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type": "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code",   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type"   "cell_type": "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code"   "code",
+   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id": "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id",   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id"   "id": "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id"   "initial_id",
+   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata": {   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata": {
+    "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed": true   真正的   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed"   "collapsed": true   真正的
    },
-   "source": [
+   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source": [   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source"   "source": [
     "\"\"\"哈希表\n",
     "哈希表定义:哈希标是一种能够通过key直接访问数据的一种数据结构\n",
     "它通过哈希函数,把key映射到数组下标,将数据存入对应数组下标位置,从而实现快速插入,查找删除\n",
-    "元素由(key,value)组成\n",
-    "\n",
+    "元素由(key,value)组成\n",   "元素由(key,value)组成\n",
+    "\n",   "\n",
     "核心组成:哈希函数(将key映射到数组的某一位置)+数组(存放元素的value值)+冲突处理\n",
-    "\n",
+    "\n",   "\n",
     "基本思想\n",
     "把原本范围大不连续的key,通过哈希函数压缩映射成较小范围的数组下标\n",
-    "\n",
+    "\n",   "\n",
     "哈希冲突:\n",
     "不同key可能映射到数组的同一位置\n",
-    "如hash(key)=key%10\n",
-    "11->1\n",
-    "21->1\n",
-    "31->1\n",
+    "如hash(key)=key%10\n",   "如hash(key)=key%10\n",
+    "11->1\n",   “11→1 \ n"
+    "21->1\n",   “21日→1 \ n"
+    "31->1\n",   “31→1 \ n"
     "这三个key都映射到数组1的这个位置\n",
-    "\n",
+    "\n",   "\n",
     "冲突处理方法:\n",
     "1.拉链法\n",
     "当多个key都映射到同一个位置的时候,采取链表的形式,将他们存放数组的同一位置,如下所示\n",
-    "table[3]: (10,A) -> (17,C) -> (24,D)\n",
+    "table[3]: (10,A) -> (17,C) -> (24,D)\n",“表[3]:(10 A)→(17日,C)→(24 D) \ n"
     "2.开发定址法:\n",
     "若当前位置冲突.则按顺序寻找其他空位置\n",
     "例如11->1\n",
     "21->1,当1的位置满了,则存放在2的位置上\n",
     "31->1,1的位置满了存放在2的位置上,但2的位置也满了,则存放在3的位置上\n",
-    "\n",
+    "\n",   "\n",
     "性能:\n",
     "平均情况下的时间复杂度为O(1)\n",
     "最坏情况下的时间复杂度为O(n)(发生哈希冲突时)\n",
-    "\n",
+    "\n",   "\n",
     "装载因子:\n",
     "α=元素个数/表长\n",
     "α越大,冲突通常多\n",
     "α可以大于1,比如用拉链法解决哈希冲突\n",
-    "\n",
-    "\n",
-    "\n",
+    "\n",   "\n",
+    "\n",   "\n",
+    "\n",   "\n",
     "扩容:\n",
     "当装载因子α过大时,需要扩大表长,此时有俩步操作1.扩大数组 2.需要把原来的元素重新计算位置再放到新表内(这个过程称为再哈希)\n",
-    "\n",
+    "\n",   "\n",
     "适用场景:\n",
     "判重(利用了哈希表快速查数的特点)、计数(利用了哈希表键值对)、映射、快速查存在。\n",
     "\"\"\""
@@ -57,7 +57,7 @@
    "execution_count": null
   },
   {
-   "metadata": {
+   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata": {   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata"   "metadata": {
     "ExecuteTime": {
      "end_time": "2026-04-02T12:30:29.020053Z",
      "start_time": "2026-04-02T12:30:29.005950Z"
